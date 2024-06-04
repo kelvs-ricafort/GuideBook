@@ -19,12 +19,14 @@ struct CityView: View {
                         NavigationLink {
                             AttractionView(city: city)
                         } label: {
-                            Text(city.name)
+                            CityCard(city: city)
+                                .padding(.bottom, 20)
                         }
                     }
                 }
-                .padding()
+                .padding(.horizontal)
             }
+            .ignoresSafeArea()
             .onAppear {
                 cities = dataService.getData()
             }

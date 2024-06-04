@@ -16,6 +16,8 @@
 		B68FCA5C2C0D959700CAD85D /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FCA5B2C0D959700CAD85D /* CityView.swift */; };
 		B68FCA5E2C0D959B00CAD85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68FCA5D2C0D959B00CAD85D /* Assets.xcassets */; };
 		B68FCA612C0D959B00CAD85D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68FCA602C0D959B00CAD85D /* Preview Assets.xcassets */; };
+		B6B3B5CD2C0EF31800602297 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B3B5CC2C0EF31800602297 /* CityCard.swift */; };
+		B6B3B5CF2C0EF7AE00602297 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B3B5CE2C0EF7AE00602297 /* AttractionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		B68FCA5B2C0D959700CAD85D /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		B68FCA5D2C0D959B00CAD85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B68FCA602C0D959B00CAD85D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6B3B5CC2C0EF31800602297 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
+		B6B3B5CE2C0EF7AE00602297 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 			children = (
 				B68FCA592C0D959700CAD85D /* GuideBookApp.swift */,
 				B68FCA5B2C0D959700CAD85D /* CityView.swift */,
+				B6B3B5CC2C0EF31800602297 /* CityCard.swift */,
 				B62B48C82C0DB53C002C43E2 /* City.swift */,
 				B62B48CA2C0DB5AE002C43E2 /* Attraction.swift */,
 				B62B48C22C0DA662002C43E2 /* AttractionView.swift */,
+				B6B3B5CE2C0EF7AE00602297 /* AttractionRow.swift */,
 				B62B48C42C0DA6B8002C43E2 /* DetailView.swift */,
 				B62B48C62C0DA8E2002C43E2 /* DataService.swift */,
 				B68FCA5D2C0D959B00CAD85D /* Assets.xcassets */,
@@ -154,8 +160,10 @@
 			files = (
 				B68FCA5C2C0D959700CAD85D /* CityView.swift in Sources */,
 				B62B48C52C0DA6B8002C43E2 /* DetailView.swift in Sources */,
+				B6B3B5CF2C0EF7AE00602297 /* AttractionRow.swift in Sources */,
 				B62B48C92C0DB53D002C43E2 /* City.swift in Sources */,
 				B62B48CB2C0DB5AE002C43E2 /* Attraction.swift in Sources */,
+				B6B3B5CD2C0EF31800602297 /* CityCard.swift in Sources */,
 				B68FCA5A2C0D959700CAD85D /* GuideBookApp.swift in Sources */,
 				B62B48C32C0DA662002C43E2 /* AttractionView.swift in Sources */,
 				B62B48C72C0DA8E2002C43E2 /* DataService.swift in Sources */,
