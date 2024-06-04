@@ -18,6 +18,7 @@
 		B68FCA612C0D959B00CAD85D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68FCA602C0D959B00CAD85D /* Preview Assets.xcassets */; };
 		B6B3B5CD2C0EF31800602297 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B3B5CC2C0EF31800602297 /* CityCard.swift */; };
 		B6B3B5CF2C0EF7AE00602297 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B3B5CE2C0EF7AE00602297 /* AttractionRow.swift */; };
+		B6B3B5D32C0F032000602297 /* DemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = B6B3B5D22C0F031F00602297 /* DemoData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B68FCA602C0D959B00CAD85D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6B3B5CC2C0EF31800602297 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
 		B6B3B5CE2C0EF7AE00602297 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
+		B6B3B5D22C0F031F00602297 /* DemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				B6B3B5CE2C0EF7AE00602297 /* AttractionRow.swift */,
 				B62B48C42C0DA6B8002C43E2 /* DetailView.swift */,
 				B62B48C62C0DA8E2002C43E2 /* DataService.swift */,
+				B6B3B5D22C0F031F00602297 /* DemoData.json */,
 				B68FCA5D2C0D959B00CAD85D /* Assets.xcassets */,
 				B68FCA5F2C0D959B00CAD85D /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68FCA612C0D959B00CAD85D /* Preview Assets.xcassets in Resources */,
+				B6B3B5D32C0F032000602297 /* DemoData.json in Resources */,
 				B68FCA5E2C0D959B00CAD85D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
