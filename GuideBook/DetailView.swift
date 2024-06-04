@@ -24,12 +24,38 @@ struct DetailView: View {
                         .bold()
                     Text(attraction.longDescription)
                         .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                    
+                    
+                    if let url = URL(string: "maps://?q=\(cleanName(name: attraction.name))&sll=\(cleanCoords(latLong: attraction.latLong))&z=10&t=s") {
+                        if UIApplication.shared.canOpenURL(url) {
+                            
+                            Button {
+                                UIApplication.shared.open(url)
+                            } label: {
+                                ZStack {
+                                    RoundedRectangle(cornerRadius: 15)
+                                        .foregroundColor(.blue)
+                                        .frame(height: 40)
+                                    Text("Get Directions")
+                                        .foregroundColor(.white)
+                                }
+                            }
+                        }
+                    }
                 }
                 .padding(.bottom, 20)
             }
             .padding(.horizontal)
         }
         .ignoresSafeArea()
+    }
+    
+    func cleanName(name: String) -> String {
+        return name.replacingOccurrences(of: " ", with: "").folding(options: .diacriticInsensitive, locale: .current)
+    }
+    
+    func cleanCoords(latLong: String) -> String {
+        return latLong.replacingOccurrences(of: " ", with: "")
     }
 }
 
